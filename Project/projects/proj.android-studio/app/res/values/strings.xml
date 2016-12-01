@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ads Phunware Example</string>
+    <string name="free_label">Free</string>
+
+    <string name="interstitial">Interstitial</string>
+    <string name="video">Video</string>
+    <string name="banner">Banner</string>
+    <string name="nativeAd">Native</string>
+    <string name="native_ads">Native Ads</string>
+    <string name="ads">Ads</string>
+    <string name="nativeAdNewsFeed">Native Ad</string>
+
+    <string name="app_appid">appid</string>
+    <string name="app_accesskey">abcd12345</string>
+    <string name="app_signaturekey">098765fghjkl</string>
+    <string name="app_encryptionkey">65as6d54f065sd4f0</string>
+
+    <string name="ok">Ok</string>
+    <string name="rewarded">Congratulations, you have earned %1$s. \nAmount: %2$s.\nRemaining Views: %3$s</string>
+    <string name="required">Required</string>
+    <string name="cancel">Cancel</string>
+    <string name="showRewardedVideo">Show Rewarded Video</string>
+    <string name="remaining_views_info">You have %1$s Remaining views. Press Show Rewarded Video to see the Ad.</string>
+    <string name="error_no_remaining_views_left">Come back later to watch more Rewarded Videos</string>
+
+    <string name="banner_zone_id">7979</string>
+    <string name="video_zone_id">75395</string>
+    <string name="intrs_zone_id">7983</string>
+    <string name="native_zone_id">63289</string>
+    <string name="landing_page_zone_id">76663</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:color="@android:color/transparent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <com.phunware.advertising.PwBannerAdView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bannerAdView"
+        android:layout_width="match_parent"
+        android:layout_height="55pt"
+        android:visibility="gone"
+        />
+    <!--
+    <Button
+        android:id="@+id/click_me"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Click me!"
+        android:textColor="@android:color/holo_green_dark"
+        android:background="@android:color/white"/>
+        -->
+</LinearLayout>
