@@ -817,10 +817,12 @@ public class PwAdsXBridge {
     private static String RVDataToString(TVASTRewardedVideoInfo rewardedVideoInfo, RVSuccessInfo rvSuccessInfo, String error)
     {
         HashMap<String, Object> hm = new HashMap<String, Object>();
-        hm.put("remainingViews",  rewardedVideoInfo.getRemainingView());
-        hm.put("startsCount", rewardedVideoInfo.getStarts());
-        hm.put("successesCount", rewardedVideoInfo.getSuccessfulViewings());
-        hm.put("errorCode", rewardedVideoInfo.getError());
+        if (rewardedVideoInfo != null) {
+            hm.put("remainingViews", rewardedVideoInfo.getRemainingView());
+            hm.put("startsCount", rewardedVideoInfo.getStarts());
+            hm.put("successesCount", rewardedVideoInfo.getSuccessfulViewings());
+            hm.put("errorCode", rewardedVideoInfo.getError());
+        }
 
         if (rvSuccessInfo != null)
         {
